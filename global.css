@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-toda-letra: #e7d912;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    font-size: 20px;
+}
+header img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+nav {
+    display: flex;
+    gap: 30px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    color: var(--color-toda-letra);
+    background-color: black;
+}
+footer {
+    position: fixed;
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    color: var(--color-toda-letra);
+    bottom: 0;
+}
+
+.footercontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+body {
+    height: 100vh;
+    background-color: black;
+    
+}
